@@ -109,6 +109,7 @@ html {
 }
 
 .und-1-body h4 {
+    font-weight: 500 ;
     font-size: 20px;
 }
 
@@ -296,6 +297,60 @@ html {
 
 .sec3 h3 {
     width: 70%;
+}
+
+/* section gallery */
+
+.sec-gall {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    width: 100vw;
+    height: max-content;
+    padding: 0px 160px 100px 160px;
+    box-sizing: border-box;
+}
+
+.sec-gall img {
+    transition: 0.4s;
+}
+.sec-gall img:hover {
+    transition: 0.4s;
+    filter: brightness(70%);
+}
+
+.gallery {
+    position: relative;
+    top: 0px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 43px;
+}
+
+.gallery::after {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    background-color: black;
+    left: -30px;
+    top: 40%;
+}
+
+.gallery::before {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    background-color: black;
+    right: -30px;
+    top: 40%;
 }
 
 /* section 4 */
@@ -560,6 +615,18 @@ html {
     .sec3 h3 {
         width: 90%;
     }
+
+    .sec-gall {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        width: 100vw;
+        height: max-content;
+        padding: 30px 20px 60px 20px;
+        box-sizing: border-box;
+    }
     
 }
 
@@ -718,6 +785,16 @@ html {
     .sec3 h3 {
         width: 90%;
     }
+
+    .gallery {
+        position: relative;
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 180px;
+        font-size: 63px;
+    }
+    
 }
 
 
@@ -798,6 +875,15 @@ html {
         width: max-content;
         margin-left: auto;
         margin-right: auto;
+        font-size: 63px;
+    }
+
+    .gallery {
+        position: relative;
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 180px;
         font-size: 63px;
     }
         
