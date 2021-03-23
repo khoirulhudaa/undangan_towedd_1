@@ -1,0 +1,910 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.sec1 {
+    position: relative;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./dekorasi/pngegg.png');
+    background-size: 170px;
+    background-position: center;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sec1 a {
+    color: white;
+}
+
+.sec1 .div-sec1 {
+    width: 100%;
+    height: max-content;
+}
+
+.div-sec1:nth-child(1) {
+    color: white;
+    font-weight: bold;
+    font-family: 'Cookie', cursive;
+    font-size: 40px;
+    word-spacing: 1.1em;
+}
+
+.div-sec1:nth-child(2) {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-family: 'Cookie', cursive;
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.div-sec1:nth-child(2) ul {
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.div-sec1:nth-child(2) ul li {
+    list-style: none;
+    font-size: 28px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.div-sec1:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-sec1:nth-child(3) .und-1 {
+    width: 75%;
+    height: 730px;
+    border-radius: 5px;
+    padding: 4px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                0 2px 4px rgba(0,0,0,0.07), 
+                0 4px 8px rgba(0,0,0,0.07), 
+                0 8px 16px rgba(0,0,0,0.07),
+                0 16px 32px rgba(0,0,0,0.07), 
+                0 32px 64px rgba(0,0,0,0.07);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.und-1-head {
+    width: 100%;
+    height: 60%;
+    background-image: url('./images/jedikanie-jasnie-QuBsw7QMCzQ-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.und-1-body h2 {
+    font-size: 40px;
+}
+
+.und-1-body h4 {
+    font-size: 20px;
+}
+
+.ornamen-1 {
+    display: none;
+}
+
+/* section2 */
+
+.sec2 {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    height: max-content;
+}
+
+.wrap-card-sec2 {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.sec2 .card {
+    position: relative;
+    margin-left: 40px;
+    text-align: center;
+    margin-right: 40px;
+    background-color: #fff;
+}
+
+.card-1, .card-2 {
+    box-sizing: border-box;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 330px;
+    margin-top: 460px;
+    height: 450px;
+}
+
+.sec2 .card-images {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                0 2px 4px rgba(0,0,0,0.07), 
+                0 4px 8px rgba(0,0,0,0.07), 
+                0 8px 16px rgba(0,0,0,0.07),
+                0 16px 32px rgba(0,0,0,0.07), 
+                0 32px 64px rgba(0,0,0,0.07);
+    border-radius: 10px;
+}
+
+.sec2 .card-content {
+    width: 100%;
+    padding: 10px;
+    height: 50%;
+}
+
+.sec2 .card .card-images-1 {
+    background-image: url('./images/marsha-dhita-uHIN59WI_zc-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec2 .card .card-images-2 {
+    background-image: url('./images/iseng-iseng-jepret-f_85EDwfhkA-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-middle {
+    position: relative;
+    margin-top: 500px;
+    background-image: url('./dekorasi/heart-1993638_1280-removebg-preview.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+}
+
+.pengantin {
+    position: relative;
+    top: 350px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 43px;
+}
+
+.pengantin::after {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    background-color: black;
+    left: -30px;
+    top: 40%;
+}
+
+.pengantin::before {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    background-color: black;
+    right: -30px;
+    top: 40%;
+}
+
+.bunga1 {
+    position: absolute;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: -170px;
+    width: 400px;
+    height: 400px;
+    background-image: url('./dekorasi/pngegg.png');
+    transform: rotate(70deg);
+    left: -250px;
+}
+
+.bunga2 {
+    position: absolute;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: -170px;
+    width: 400px;
+    height: 400px;
+    background-image: url('./dekorasi/pngegg.png');
+    transform: rotate(-70deg);
+    right: -250px;
+}
+
+.ornamen-card {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-image: url('./dekorasi/pngegg.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ornamen-card1 {
+    top: 0%;
+    left: -250px;
+    transform: rotate(-70deg);
+}
+
+.ornamen-card2 {
+    top: 0%;
+    right: -250px;
+    transform: rotate(70deg);
+}
+
+/* section 3 */
+
+.sec3 {
+    position: relative;
+    width: 100vw;
+    height: max-content;
+    padding: 50px 0;
+    margin-top: 60px;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec3 h3 {
+    width: 70%;
+}
+
+/* section 4 */
+
+.sec4 {
+    width: 100vw;
+    height: max-content;
+    padding: 90px 40px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 19, 19);
+    background-image: url('./dekorasi/pngegg.png');
+    background-size: 140px;
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec4 small {
+    position: relative;
+    top: -20px;
+}
+
+.sec4 h1 {
+    font-size: 33px;
+}
+
+.sec4 small {
+    font-size: 20px;
+}
+
+.btn-back {
+    background-color: rgb(0, 219, 11);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 70px;
+    cursor: pointer;
+    transition: 0.4s;
+    outline: none;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+.btn-back:hover {
+    filter: brightness(90%);
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 765px) {
+
+    .div-sec1:nth-child(1) {
+        color: white;
+        font-weight: bold;
+        font-family: 'Cookie', cursive;
+        font-size: 35px;
+        word-spacing: 1.1em;
+    }
+        
+    .div-sec1:nth-child(2) {
+        width: 100%;
+        color: white;
+        font-weight: bold;
+        font-family: 'Cookie', cursive;
+        font-size: 20px;
+        margin-bottom: 20px;
+        display: flex;
+    }
+
+    .div-sec1:nth-child(2) ul {
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 10px;
+        display: flex;
+    }
+
+    .div-sec1:nth-child(2) ul li {
+        list-style: none;
+        font-size: 28px;
+        cursor: pointer;
+        margin: 0 10px;
+    }
+        
+    .div-sec1:nth-child(3) .und-1 {
+        width: 90%;
+        height: 730px;
+        border-radius: 5px;
+        padding: 4px;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                    0 2px 4px rgba(0,0,0,0.07), 
+                    0 4px 8px rgba(0,0,0,0.07), 
+                    0 8px 16px rgba(0,0,0,0.07),
+                    0 16px 32px rgba(0,0,0,0.07), 
+                    0 32px 64px rgba(0,0,0,0.07);
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .ornamen-1 {
+        position: relative;
+        top: -10px;
+        width: 60vw;
+        transform: rotateX(180deg);
+    }
+
+    .wrap-card-sec2 {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .sec2 .card {
+        position: relative;
+        margin-left: 0px;
+        width: 90vw;
+        text-align: center;
+        margin-right: 0px;
+        background-color: #fff;
+    }
+        
+    .card-1, .card-2 {
+        box-sizing: border-box;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 0px;
+        margin-top: 0px;
+        height: 450px;
+    }
+
+    .card-1 {
+        margin-top: 480px;
+    }
+
+    .card-2 {
+        position: relative;
+    }
+
+    .sec2 .card-images {
+        position: relative;
+        width: 100%;
+        height: 60%;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                    0 2px 4px rgba(0,0,0,0.07), 
+                    0 4px 8px rgba(0,0,0,0.07), 
+                    0 8px 16px rgba(0,0,0,0.07),
+                    0 16px 32px rgba(0,0,0,0.07), 
+                    0 32px 64px rgba(0,0,0,0.07);
+        border-radius: 10px;
+    }
+
+    .sec2 .card-content {
+        width: 100%;
+        padding: 10px;
+        height: 50%;
+    }
+
+    .sec2 .card .card-images-1 {
+        background-image: url('./images/marsha-dhita-uHIN59WI_zc-unsplash.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec2 .card .card-images-2 {
+        background-image: url('./images/iseng-iseng-jepret-f_85EDwfhkA-unsplash.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .pengantin {
+        position: relative;
+        top: 420px;
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 43px;
+    }
+
+    .ornamen-card {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        background-image: url('./dekorasi/pngegg.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .ornamen-card1 {
+        top: 15%;
+        left: -120px;
+        transform: rotate(-70deg);
+    }
+    
+    .ornamen-card2 {
+        top: 15%;
+        right: -120px;
+        transform: rotate(70deg);
+    }
+
+    .card-middle {
+        position: relative;
+        margin-top: 0px;
+        background-image: url('./dekorasi/heart-1993638_1280-removebg-preview.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 160px;
+        margin-bottom: 80px;
+        background-position: center;
+    }
+
+    .sec3 {
+        width: 100vw;
+        height: max-content;
+        padding: 0px 0;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .bunga1 {
+        position: absolute;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        bottom: -170px;
+        width: 200px;
+        height: 200px;
+        background-image: url('./dekorasi/pngegg.png');
+        transform: rotate(70deg);
+        left: -120px;
+    }
+    
+    .bunga2 {
+        position: absolute;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        bottom: -170px;
+        width: 200px;
+        height: 200px;
+        background-image: url('./dekorasi/pngegg.png');
+        transform: rotate(-70deg);
+        right: -120px;
+    }
+
+    .sec3 h3 {
+        width: 90%;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .div-sec1:nth-child(1) {
+        color: white;
+        font-weight: bold;
+        font-family: 'Cookie', cursive;
+        font-size: 35px;
+        word-spacing: 1.1em;
+    }
+        
+    .div-sec1:nth-child(2) {
+        width: 100%;
+        color: white;
+        font-weight: bold;
+        font-family: 'Cookie', cursive;
+        font-size: 20px;
+        margin-bottom: 20px;
+        display: flex;
+    }
+
+    .div-sec1:nth-child(2) ul {
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 10px;
+        display: flex;
+    }
+
+    .div-sec1:nth-child(2) ul li {
+        list-style: none;
+        font-size: 28px;
+        cursor: pointer;
+        margin: 0 10px;
+    }
+        
+    .div-sec1:nth-child(3) .und-1 {
+        width: 90%;
+        height: 730px;
+        border-radius: 5px;
+        padding: 4px;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                    0 2px 4px rgba(0,0,0,0.07), 
+                    0 4px 8px rgba(0,0,0,0.07), 
+                    0 8px 16px rgba(0,0,0,0.07),
+                    0 16px 32px rgba(0,0,0,0.07), 
+                    0 32px 64px rgba(0,0,0,0.07);
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .ornamen-1 {
+        position: relative;
+        top: -10px;
+        width: 40vw;
+        transform: rotateX(180deg);
+    }
+
+    .wrap-card-sec2 {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .sec2 .card {
+        position: relative;
+        margin-left: 0px;
+        width: 90vw;
+        text-align: center;
+        margin-right: 0px;
+        background-color: #fff;
+    }
+        
+    .card-1, .card-2 {
+        box-sizing: border-box;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 0px;
+        margin-top: 0px;
+        height: 550px;
+    }
+
+    .card-1 {
+        margin-top: 480px;
+    }
+
+    .card-2 {
+        position: relative;
+    }
+
+    .sec2 .card-images {
+        position: relative;
+        width: 100%;
+        height: 65%;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                    0 2px 4px rgba(0,0,0,0.07), 
+                    0 4px 8px rgba(0,0,0,0.07), 
+                    0 8px 16px rgba(0,0,0,0.07),
+                    0 16px 32px rgba(0,0,0,0.07), 
+                    0 32px 64px rgba(0,0,0,0.07);
+        border-radius: 10px;
+    }
+
+    .sec2 .card-content {
+        width: 100%;
+        padding: 10px;
+        height: 50%;
+    }
+
+    .sec2 .card .card-images-1 {
+        background-image: url('./images/marsha-dhita-uHIN59WI_zc-unsplash.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec2 .card .card-images-2 {
+        background-image: url('./images/iseng-iseng-jepret-f_85EDwfhkA-unsplash.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .card-middle {
+        position: relative;
+        margin-top: 0px;
+        background-image: url('./dekorasi/heart-1993638_1280-removebg-preview.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 160px;
+        margin-bottom: 80px;
+        background-position: center;
+    }
+
+    .sec3 {
+        width: 100vw;
+        height: max-content;
+        padding: 0px 0;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .sec3 h3 {
+        width: 90%;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 1500px) {
+    
+    .div-sec1:nth-child(1) {
+        color: white;
+        font-weight: bold;
+        font-family: 'Cookie', cursive;
+        font-size: 55px;
+        word-spacing: 1.1em;
+    }
+
+    .div-sec1:nth-child(2) {
+        width: 100%;
+        color: white;
+        font-weight: bold;
+        font-family: 'Cookie', cursive;
+        margin-bottom: 20px;
+        display: flex;
+    }
+
+    .div-sec1:nth-child(2) ul {
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 10px;
+        display: flex;
+    }
+
+    .div-sec1:nth-child(2) ul li {
+        list-style: none;
+        font-size: 50px;
+        cursor: pointer;
+        margin: 0 20px 20px 20px;
+    }
+
+    .div-sec1:nth-child(3) .und-1 {
+        width: 75%;
+        height: 1030px;
+        border-radius: 5px;
+        padding: 4px;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                    0 2px 4px rgba(0,0,0,0.07), 
+                    0 4px 8px rgba(0,0,0,0.07), 
+                    0 8px 16px rgba(0,0,0,0.07),
+                    0 16px 32px rgba(0,0,0,0.07), 
+                    0 32px 64px rgba(0,0,0,0.07);
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .und-1-head {
+        width: 100%;
+        height: 60%;
+        background-image: url('./images/jedikanie-jasnie-QuBsw7QMCzQ-unsplash.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .und-1-body h2 {
+        margin-top: 60px;
+        font-size: 60px;
+    }
+    
+    .und-1-body h4 {
+        font-size: 30px;
+    }
+
+    .pengantin {
+        position: relative;
+        top: 350px;
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 63px;
+    }
+        
+    .sec2 .card {
+        position: relative;
+        margin-left: 40px;
+        text-align: center;
+        margin-right: 40px;
+        background-color: #fff;
+    }
+
+    .card-1, .card-2 {
+        box-sizing: border-box;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 20px;
+        width: 530px;
+        margin-top: 460px;
+        height: 650px;
+    }
+
+    .sec2 .card-images {
+        position: relative;
+        width: 100%;
+        height: 60%;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                    0 2px 4px rgba(0,0,0,0.07), 
+                    0 4px 8px rgba(0,0,0,0.07), 
+                    0 8px 16px rgba(0,0,0,0.07),
+                    0 16px 32px rgba(0,0,0,0.07), 
+                    0 32px 64px rgba(0,0,0,0.07);
+        border-radius: 10px;
+    }
+
+    .sec2 .card-content {
+        width: 100%;
+        padding: 10px;
+        height: 50%;
+    }
+
+    .sec2 .card .card-images-1 {
+        background-image: url('./images/marsha-dhita-uHIN59WI_zc-unsplash.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec2 .card .card-images-2 {
+        background-image: url('./images/iseng-iseng-jepret-f_85EDwfhkA-unsplash.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .card-middle {
+        position: relative;
+        margin-top: 500px;
+        background-image: url('./dekorasi/heart-1993638_1280-removebg-preview.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 200px;
+        background-position: center;
+    }
+
+    .card h2 {
+        font-size: 40px;
+    }
+
+    .card h4 {
+        font-size: 28px;
+    }
+
+    .sec3 h3 {
+        font-size: 30px;
+    }
+        
+    .sec4 small {
+        position: relative;
+        top: -20px;
+    }
+
+    .sec4 h1 {
+        font-size: 43px;
+    }
+
+    .sec4 small {
+        font-size: 26px;
+    }
+
+    .kehadiran {
+        font-size: 26px;
+    }
+
+    .btn-back {
+        background-color: rgb(0, 219, 11);
+        font-family: 'Poppins', sans-serif;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 23px;
+        text-align: center;
+        padding: 10px 20px;
+        margin-top: 70px;
+        cursor: pointer;
+        transition: 0.4s;
+        outline: none;
+        border: none;
+        color: rgb(255, 255, 255);
+    }
+
+}
